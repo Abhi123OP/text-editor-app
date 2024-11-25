@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.text-editor-container {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.text-editor-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text-area {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+.text-area:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.preview-section {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-style: italic;
+  word-wrap: break-word;
+  min-height: 50px;
+}
+
+.analyzing-box {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analyzing-box h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.analyzing-box p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.editor-container {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.editor-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text-area {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+.text-area:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.editor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.format-button,
+.clear-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.format-button {
+  background-color: #3498db;
+}
+
+.format-button:hover {
+  background-color: #2980b9;
+}
+
+.clear-button {
+  background-color: #e74c3c;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+}
+
+.button-camel {
+  background-color: #f1c40f;
+}
+
+.button-camel:hover {
+  background-color: #f39c12;
+}
+
+.active {
+  border: 2px solid #2ecc71;
+  background-color: #27ae60;
+}
+
+.formatted-output {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  word-wrap: break-word;
+  min-height: 50px;
+}
+
+.formatted-output h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.formatted-output p {
+  font-size: 18px;
+  color: #333;
+}
